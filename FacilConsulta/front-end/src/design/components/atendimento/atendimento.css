@@ -1,0 +1,124 @@
+form {
+    margin-top: 10%;
+}
+
+form div.atendimentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form div.atendimentos div.input-especialidade {
+    display: flex;
+    flex-direction: column;
+}
+
+form div.atendimentos div.input-especialidade select.select-especialidade {
+    width: 80%;
+}
+
+.title-atendimento {
+    color: #483698;
+}
+
+.subtitle-atendimento {
+    font-family: 'Comfortaa-Bold';
+    color: #282828;
+}
+
+form div.atendimentos div.input-preco {
+    display: flex;
+    flex-direction: column;
+}
+
+form div.atendimentos div.input-preco div.preco {
+    display: flex;
+}
+
+span.bg-preco {
+    background: #483698;
+    color: #fff;
+}
+
+.preco-input {
+    width: 60%;
+}
+
+form div.atendimentos div.pagamento-area {
+    display: flex;
+    flex-direction: column;
+}
+
+form div.atendimentos div.pagamento-area div.option-pix {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background: #F9F9F9;
+    box-shadow: 2px 6px 2px rgba(0, 0, 0, 0.16);
+    border-radius: 7px;
+}
+
+form div.atendimentos div.pagamento-area div.option-pix input {
+    margin-left: 8%;
+}
+
+form div.atendimentos div.pagamento-area div.option-pix label {
+    margin-left: 8%;
+}
+
+form div.atendimentos div.pagamento-area div.option-dinheiro {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background: #F9F9F9;
+    box-shadow: 2px 6px 2px rgba(0, 0, 0, 0.16);
+    border-radius: 7px;
+}
+
+form div.atendimentos div.pagamento-area div.option-dinheiro input {
+    margin-left: 8%;
+}
+
+form div.atendimentos div.pagamento-area div.option-dinheiro label {
+    margin-left: 8%;
+}
+
+form div.atendimentos div.pagamento-area .credito-option label {
+    width: 100%;
+}
+
+.next {
+    height: 100%;
+    width: 100%;
+}
+
+.draw-img {
+    margin-top: 10%;
+}
+
+form div.atendimentos div.credito {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background: #F9F9F9;
+    box-shadow: 2px 6px 2px rgba(0, 0, 0, 0.16);
+    border-radius: 7px;
+    height: 200px;
+}
+
+form div.atendimentos div.credito div.option-money label {
+    margin-left: 8%;
+}
+
+form div.atendimentos div.credito div.option-money input {
+    margin-left: 8%;
+}
+
+form div.atendimentos div.credito div.pagamento-form {
+    margin-top: 3%;
+    width: 100%;
+    margin-left: 19%;
+}

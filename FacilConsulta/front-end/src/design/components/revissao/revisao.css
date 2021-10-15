@@ -1,0 +1,45 @@
+div.buttons {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    margin-top: 7%;
+}
+
+ul li {
+    list-style: none;
+}
+
+div.row h1 {
+    font-family: 'Comfortaa-Bold', sans-serif, Roboto;
+    color: #483698;
+}
+
+div.row ul li span {
+    color: #282828;
+    font-weight: bold;
+    font-family: 'Comfortaa-SemiBold', sans-serif, Roboto;
+}
+
+div.row ul li p {
+    color: #8A8A8A;
+    font-weight: bold;
+    font-family: 'Comfortaa-SemiBold', sans-serif, Roboto;
+}
+
+div.buttons button.btn-editar {
+    background: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    color: #483698;
+    font-family: 'Comfortaa-Bold', sans-serif, Roboto;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+div.direcao a i {
+    color: #d1b726;
+}

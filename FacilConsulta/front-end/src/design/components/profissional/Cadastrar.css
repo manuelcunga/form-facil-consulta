@@ -1,0 +1,170 @@
+div.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+}
+
+form div.profissional-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-divisao {
+    display: flex;
+    justify-content: space-between;
+}
+
+form h2 {
+    color: #483698;
+    font-family: 'Comfortaa-Bold';
+}
+
+form div.profissional-content {
+    margin-top: 10%;
+}
+
+form div.profissional-content div.input-form {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 90%; */
+}
+
+form div.profissional-content div.input-form h3 {
+    font-size: 1.5rem;
+    font-family: 'Comfortaa-Bold';
+    font-weight: bold;
+    color: #282828;
+}
+
+form h2 {
+    font-family: 'Comfortaa-Bold', sans-serif, Roboto;
+    font-size: 3.6rem;
+}
+
+form div.profissional-content div.input-form input.input-nome {
+    width: 90%;
+}
+
+form div.profissional-content div.input-form input.input-cpf {
+    width: 100%;
+    max-width: 280px;
+}
+
+form div.profissional-content div.input-form input.input-celular {
+    width: 100%;
+    max-width: 280px;
+}
+
+form div.profissional-content div.input-form div.localizacao {
+    display: flex;
+    align-items: center;
+}
+
+form div.profissional-content div.input-form div.localizacao div.estado {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+}
+
+form div.profissional-content div.input-form div.localizacao div.cidade {
+    display: flex;
+    flex-direction: column;
+}
+
+form div.profissional-content div.input-form select.estado-select {
+    width: 100%;
+    max-width: 220px;
+}
+
+form div.profissional-content div.input-form select.cidade-select {
+    width: 100%;
+    max-width: 220px;
+}
+
+.pagamento-formas {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background: #F9F9F9;
+    box-shadow: 2px 6px 2px rgba(0, 0, 0, 0.16);
+    border-radius: 7px;
+    margin-top: 20px;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.pagamento-formas div.money-option {
+    margin-right: 20%;
+}
+
+.pagamento-formas div.money-option label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.parcelmaneto-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* media queries */
+
+@media(max-width:768px) {
+    html {
+        font-size: 50%;
+        height: 100%;
+        width: 100%;
+    }
+    .bg-cadastro img {
+        width: 20px;
+        display: none;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+        background: #FFE766;
+    }
+    form {
+        width: 100%;
+        background: #fff;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    h1 {
+        font-family: 'Comfortaa-SemiBold', sans-serif, Roboto;
+        text-align: center;
+    }
+    form div.col-md-6 img.bg-cadastro {
+        display: none;
+    }
+}
+
+@media(max-width: 243) {
+    form {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 320) {
+    form div.profissional-content div.localizacao {
+        display: block;
+    }
+    form h1 {
+        font-family: 'Comfortaa-SemiBold', sans-serif, Roboto;
+        display: flex;
+    }
+    img.bg-cadastro {
+        width: 30px;
+        margin: 0;
+        display: none;
+    }
+}
